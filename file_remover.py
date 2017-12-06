@@ -14,4 +14,6 @@ for files in os.listdir("."):
 				sys.exit(0)
 			except:
 				print "error ! "
+		else:
+			sys.exit(0)
 print "File Not Found!"
