@@ -3,8 +3,6 @@ from bs4 import BeautifulSoup
 import urllib
 import json
 
-
-
 browser = mechanize.Browser()
 browser.set_handle_robots(False)
 browser.addheaders = [("User-agent","Firefox")]
